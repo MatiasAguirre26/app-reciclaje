@@ -39,6 +39,7 @@ footer {
     padding: 10px 0;
     background: #333;
     color: white;
+    
 }
 
 @media (max-width: 600px) {
@@ -50,3 +51,4 @@ footer {
         margin-bottom: 5px;
     }
 }
+
