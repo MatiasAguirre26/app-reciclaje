@@ -11,3 +11,4 @@ LoginBtn.addEventListener('click',()=>{
     RegisterForm.classList.remove('active');
     loginForm.classList.remove('active')
 })
+
