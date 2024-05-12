@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Lunk css-->
+    <!-- Link css-->
     <link rel="stylesheet" href="./styles/main.css">
 
     <!--Link iconos -->
 
-    <title>APP-Reciclaje</title>
+    <title>Inicio</title>
 
 </head>
 
@@ -22,12 +22,12 @@
            <ul class="nav-links">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Iniciar Sesion</a></li>
+                <li><a href="./pages/login.html">Iniciar Sesion</a></li>
            </ul>            
         </nav>
-        <a class="btn" href="#"><button>Registrarse</button></a>
+        <a class="btn" href="./pages/login.html"><button>Registrarse</button></a>
 
-        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+        <a onclick="openNav()" class="menu" href="#"><button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button></a>
 
         <div id="mobile-menu" class="overlay">
             <a onclick="closeNav()" href="" class="close">&times;</a>
@@ -39,6 +39,11 @@
     </header>
     <main>
         <!--Secciones-->
+        <section id="hero">
+          <h2>Recicla y ganá</h2>
+          <p>Hace que reciclar sea fácil y gratificante. Regístrate, recicla y gana puntos que luego puedes canjear por increíbles recompensas. “Es así de simple”</p>
+          <a href="./pages/login.html"><button>Únete ahora</button></a>
+        </section>
         <section id="app-overview">
             <h2>De qué trata la app</h2>
             <p>Nuestra aplicación de reciclaje está diseñada para hacer que el reciclaje sea más fácil, conveniente y gratificante para todos. Registra tus materiales reciclados, gana puntos y canjea recompensas exclusivas, todo desde la palma de tu mano</p>
@@ -61,7 +66,7 @@
         
         <section id="recycling-points">
             <h2>Puntos de Reciclaje</h2>
-            
+            <p>Encuentra puntos de reciclaje cercanos a ti y haz tu parte para proteger el medio ambiente. Nuestra aplicación te muestra los puntos de reciclaje disponibles en tu área, junto con detalles sobre qué materiales se aceptan y los horarios de funcionamiento</p>
         </section>
 
         <section id="partnerships">
@@ -75,22 +80,7 @@
         <ul class="social-icon">
           <li class="icon-elem">
             <a href="" class="icon">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="" class="icon">
               <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="" class="icon">
-              <ion-icon name="logo-whatsapp"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="" class="icon">
-              <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
           <li class="icon-elem">
@@ -98,28 +88,28 @@
               <ion-icon name="mail-outline"></ion-icon>
             </a>
           </li>
+          <li class="icon-elem">
+            <a href="" class="icon">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
         </ul>
         <ul class="menu_footer">
           <li class="menu-elem">
-            <a href="" class="menu-icon"> Inicio </a>
+            <a href="" class="menu-icon">Inicio</a>
           </li>
           <li class="menu-elem">
-            <a href="" class="menu-icon"> Equipo </a>
+            <a href="" class="menu-icon">Sobre nosotros</a>
           </li>
           <li class="menu-elem">
-            <a href="" class="menu-icon"> Contacto </a>
-          </li>
-          <li class="menu-elem">
-            <a href="" class="menu-icon"> Video </a>
-          </li>
-          <li class="menu-elem">
-            <a href="" class="menu-icon"> Sobre Nosotros </a>
+            <a href="" class="menu-icon">Contacto</a>
           </li>
         </ul>
-        <p class="text">@Año | Todos los derechos reservados</p>
+        <p class="text">@2024 | Todos los derechos reservados</p>
       </footer>
 
-    <script type="text/javascript" src="./scripts/main.js"></script>    
+    <script type="text/javascript" src="./scripts/main.js"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

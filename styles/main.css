@@ -194,7 +194,7 @@ p {
 .footer {
     position: relative;
     width: 100%;
-    background: #286bcf;
+    background: var(--color-secundary);
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
