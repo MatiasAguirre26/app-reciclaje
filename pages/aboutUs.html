@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link css-->
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Sobre nosotros</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo1.png" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="./pages/login.html">Iniciar Sesion</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="./pages/login.html"><button>Registrarse</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="../index.html">Inicio</a>
+                <a href="../pages/aboutUs.html">Sobre nosotros</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about_us">
+            <h2>Misión y Visión</h2>
+            <p>"Nuestra misión es simple pero poderosa: queremos inspirar a las personas a reciclar más, reducir su impacto ambiental y construir un futuro más sostenible para todos. Creemos que el reciclaje puede ser divertido, fácil y recompensante."</p>
+        </section>
+        <section>
+            <h2>Colaboraciones</h2>
+            <p>Creemos en el poder de la colaboración y nos enorgullece asociarnos con organizaciones que comparten nuestra visión de un mundo más limpio y verde. Juntos, podemos lograr más de lo que podríamos hacer solos</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="social-icon">
+          <li class="icon-elem">
+            <a href="" class="icon">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="icon-elem">
+            <a href="" class="icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="icon-elem">
+            <a href="" class="icon">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu_footer">
+          <li class="menu-elem">
+            <a href="" class="menu-icon">Inicio</a>
+          </li>
+          <li class="menu-elem">
+            <a href="" class="menu-icon">Sobre nosotros</a>
+          </li>
+          <li class="menu-elem">
+            <a href="" class="menu-icon">Contacto</a>
+          </li>
+        </ul>
+        <p class="text">@2024 | Todos los derechos reservados</p>
+    </footer>
+    <script type="text/javascript" src="../scripts/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
