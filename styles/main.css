@@ -26,10 +26,11 @@ main {
 }
 
 section {
-    background-color: var(--color-secundary);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+    /* background-color: var(--color-secundary); */
+    border-radius: 30px;
+    padding: 1em;
+    gap: 20px;
+    /* text-align: center; */
 }
 
 h1 {
@@ -42,19 +43,20 @@ h2 {
     color: var(--color-primary);
 }
 
-p {
+article p {
     color: var(--color-white);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 1em 0;
 }
 
 /*NAVBAR*/
 .header{
-    background-color: #1b3039;
+    /* background-color: #1b3039; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+    /* height: 85px; */
+    padding: 1em 1.3em;
 }
 
 .header .logo{
@@ -169,22 +171,82 @@ p {
 
 /*HERO*/
 
+#hero {
+    display: flex;
+    align-items: center;
+}
+
+#hero img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+/* article { */
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+#hero a {
+    margin-top: 2em;
+}
+
 #hero a button {
-    color: #1b3039;
-    padding: 9px 25px;
-    background: #eceff1;
+    color: var(--color-white);
+    padding: 1em 2em;
+    background: var(--color-primary);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    font-size: 1rem;
+}
+
+#app-overview {
+    text-align: center;
+}
+
+#recycling-benefits {
+    background-color: var(--color-secundary);
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    & img {
+        width: 15em;
+        border-radius: 50%;
+    }
+}
+
+#earning-points {
+    text-align: center;
+    background-color: var(--color-secundary);
+}
+
+#recycling-points {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    & img {
+        width: 20em;        
+    }
+
+}
+
+
+#partnerships {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #partnerships a button {
-    color: #1b3039;
-    padding: 9px 25px;
-    background: #eceff1;
+    color: var(--color-white);
+    padding: 1em 2em;
+    background: var(--color-primary);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 /*FOOTER*/
@@ -240,7 +302,7 @@ p {
   }
   .menu-icon {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline-block;
     text-decoration: none;
     margin: 5px 10px;
@@ -257,7 +319,7 @@ p {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
 
 
@@ -272,8 +334,25 @@ p {
         display: inherit;
     }
     .header .overlay .close{
-        /* font-size: 40px; */
         top: 15px;
         right: 35px;
-    }    
+    }
+
+    #hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #recycling-benefits {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #recycling-points {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
 }
