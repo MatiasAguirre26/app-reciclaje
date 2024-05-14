@@ -1,6 +1,6 @@
 :root {
     --color-primary: #15C72F;
-    --color-secundary: #2D3A3A;
+    --color-secundary: #1E1E1E;
     --background-color: #040F0F;
     --color-white: #F0E7E7;
 }
@@ -13,16 +13,16 @@
 
 body {
     background-color: var(--background-color);
-    font-family: Arial, sans-serif, Poppins;
+    font-family: "Poppins", sans-serif, Arial;
 }
 
 main {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    gap: 60px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    padding: 2em 1em;
 }
 
 section {
@@ -36,6 +36,7 @@ section {
 h1 {
     font-size: 3rem;
     color: var(--color-primary);
+
 }
 
 h2 {
@@ -112,6 +113,7 @@ article p {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 1.2rem;
 }
 
 .header .btn button:hover,
@@ -177,7 +179,7 @@ article p {
 }
 
 #hero img {
-    width: 100%;
+    width: 25em;
     border-radius: 10%;
 }
 
