@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+
+<body>
+
+
+
+    <div class="container2">
+        <h2>Registrate</h2>
+        <form id="registration-form" action="#">
+            <div class="input-box">
+                <label for="username">Nombre de Usuario</label>
+                <input type="text" id="username" name="username" placeholder="Ingrese su nombre" required>
+            </div>
+
+            <div class="input-box">
+                <input type="email" id="email" name="email" placeholder="Ejemplo@gmail.com" required>
+                <label for="email">Gmail</label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                <label for="password">Password</label>
+            </div>
+            <div class="input-box">
+                <input type="password" id="confirm-password" name="confirm-password"
+                    placeholder="Confirma tu contraseña" required>
+                <label for="confirm-password">Confirmar Contraseña</label>
+                <input type="">
+            </div>
+
+            <div class="forgot-section">
+                <span><input type="checkbox" id="checked">Recoradar</span>
+                <span><a href="#">¿Olvidaste la Contraseña?</a></span>
+            </div>
+
+            <button class="btn" class="loginBtn" type="submit">Registrar</button>
+
+        </form>
+        <p>O Registrate con...</p>
+        <div class="">
+            <ion-icon name="logo-google"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+        </div>
+        <p class="LoginBtn"><a href="login.html">Iniciar Sesion ahora</a></p>
+
+    </div>
+
+    <script src="../scripts/registerValue.js"></script>
+    <script src="../scripts/localStorage.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

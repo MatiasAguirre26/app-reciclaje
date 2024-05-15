@@ -39,6 +39,20 @@ body {
 }
 
 
+/* validation*/
+input.invalid {
+  background-color: #FFC0CB;
+}
+
+input.insecure {
+  background-color: #FFD700; 
+}
+
+input.secure {
+  background-color: #90EE90; 
+}
+
+
 .Form {
   display: flex;
   justify-content: center;
@@ -168,55 +182,6 @@ p {
   font-weight: 500;
   margin: 25px 0;
 }
-.social-media {
-  display: flex;
-}
-.social-media i {
-  font-size: 28px;
-  margin-left: 15px;
-  padding: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.social-media i:nth-child(1) {
-  color: #eee;
-  background: #1822dd;
-  border-radius: 50%;
-  border: 2px solid #eee;
-}
-.social-media i:nth-child(1):hover {
-  background: #eee;
-  color: #1822dd;
-  border: 2px solid #1822dd;
-}
-.social-media i:nth-child(2) {
-  color: #eee;
-  background: #f00;
-  border-radius: 50%;
-  border: 2px solid #eee;
-}
-.social-media i:nth-child(2):hover {
-  background: #eee;
-  color: #f00;
-  border: 2px solid #f00;
-}
-.social-media i:nth-child(3) {
-  color: #eee;
-  background: #098dc1;
-  border-radius: 50%;
-  border: 2px solid #eee;
-}
-.social-media i:nth-child(3):hover {
-  background: #eee;
-  color: #098dc1;
-  border: 2px solid #098dc1;
-}
-.RegisteBtn a {
-  text-decoration: none;
-  font-size: 14px;
-}
-
 @media (max-width: 768px) {
   .container {
     height: 500px;
