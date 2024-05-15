@@ -17,18 +17,18 @@ body {
 }
 
 main {
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 60px;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    padding: 2em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em 1em;
 }
 
 section {
     /* background-color: var(--color-secundary); */
     border-radius: 30px;
-    padding: 1em;
+    padding: 2em 2em;
     gap: 20px;
     /* text-align: center; */
 }
@@ -179,7 +179,7 @@ article p {
 }
 
 #hero img {
-    width: 25em;
+    width: 100%;
     border-radius: 10%;
 }
 
@@ -229,7 +229,7 @@ article p {
     align-items: center;
     /* gap: 20px; */
     & img {
-        width: 20em;        
+        width: 18em;        
     }
 
 }
@@ -329,6 +329,11 @@ article p {
 
 /*navbar*/
   @media (max-width: 768px){
+
+    main {
+        padding: 2em 1em;
+    }
+
     .nav-links, .btn {
         display: none;
     }
