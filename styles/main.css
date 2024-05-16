@@ -11,6 +11,29 @@
     box-sizing: border-box;
 } 
 
+#aboutUs_bg {
+    background-image: url(../assets/hero.jpeg);
+    background-size: cover;
+    /* position: relative; */
+    background-color: green;
+    background-blend-mode: color-burn;
+    backdrop-filter: blur(5px);
+}
+
+#about_us {
+    display: flex;
+    align-items: center;
+    & article a button {
+        color: var(--color-white);
+        padding: 1em 2em;
+        background: var(--color-primary);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+}
+
 body {
     background-color: var(--background-color);
     font-family: "Poppins", sans-serif, Arial;
@@ -31,6 +54,7 @@ section {
     padding: 2em 2em;
     gap: 20px;
     /* text-align: center; */
+    margin-bottom: 18%;
 }
 
 h1 {
@@ -212,6 +236,12 @@ article p {
     background-color: var(--color-secundary);
     display: flex;
     align-items: center;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
+    border-inline-start: 10px solid green;
+    border-block-start: 10px solid green;
     /* gap: 40px; */
     & img {
         width: 15em;
@@ -219,14 +249,30 @@ article p {
     }
 }
 
+
+#rewards {
+    animation: scale linear;
+    animation-timeline: view();
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
+}
+
 #earning-points {
     text-align: center;
     background-color: var(--color-secundary);
+    animation: blur linear;
+    animation-timeline: view();
+    animation-range: entry 27% cover 30%;
+    animation-fill-mode: both;
 }
 
 #recycling-points {
     display: flex;
     align-items: center;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
     /* gap: 20px; */
     & img {
         width: 18em;        
@@ -362,4 +408,37 @@ article p {
         text-align: center;
     }
 
+}
+
+/*ANIMACIONES*/
+@keyframes fade {
+    from {
+        opacity: 0;
+
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+ 
+        transform: translateX(0%);
+    }
+}
+
+@keyframes blur{
+    from {
+        filter: blur(10px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
+
+
+@keyframes scale {
+    from {
+        scale: 25%;
+    }
+    to {
+        scale: 100%;
+    }
 }
