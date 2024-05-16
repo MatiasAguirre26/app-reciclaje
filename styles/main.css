@@ -23,6 +23,7 @@
 #about_us {
     display: flex;
     align-items: center;
+    margin: 10em 0 10em 0;
     & article a button {
         color: var(--color-white);
         padding: 1em 2em;
@@ -52,7 +53,7 @@ section {
     /* background-color: var(--color-secundary); */
     border-radius: 30px;
     padding: 2em 2em;
-    gap: 20px;
+    gap: 40px;
     /* text-align: center; */
     margin-bottom: 18%;
 }
@@ -240,7 +241,6 @@ article p {
     animation-timeline: view();
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
-    border-inline-start: 10px solid green;
     border-block-start: 10px solid green;
     /* gap: 40px; */
     & img {
@@ -318,6 +318,7 @@ article p {
     position: relative;
     margin: 10px 5px;
     flex-wrap: wrap;
+    gap: 20px;
   }
   
   .icon-elem {
@@ -326,7 +327,7 @@ article p {
   
   .icon {
     color: white;
-    font-size: 1.4rem;
+    font-size: 2rem;
     display: inline-block;
     margin: 0 10px;
     transition: 0.5s;
@@ -406,6 +407,13 @@ article p {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    #about_us {
+        text-align: center;
+        & div {
+            display: none;
+        }
     }
 
 }
