@@ -2,8 +2,6 @@
 
 >El proyecto se trata de una aplicacion de reciclaje donde los usuarios ganan puntos por realizar actividades y esos puntos los pueden canjear por recompensas.
 
-### Tabla de contenidos
-
 ### Ejemplos del proyecto
 ![Imagen de la Home](https://github.com/MatiasAguirre26/app-reciclaje/assets/72876201/a68d4d1c-695e-4846-8de9-cae4b85f37a8)
 ![Imagen de la pagina aboutUs](https://github.com/MatiasAguirre26/app-reciclaje/assets/72876201/fa3cc1da-4909-4849-9adb-11aecee86b5a)
