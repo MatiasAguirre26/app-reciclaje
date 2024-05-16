@@ -5,6 +5,9 @@
 ### Tabla de contenidos
 
 ### Ejemplos del proyecto
+![Imagen de la Home](https://drive.google.com/file/d/1qm0Xs9MJqoTNHVzZOPyBfaUXfyf7vopL/view?usp=drive_link)
+![Imagen de la pagina aboutUs](https://drive.google.com/file/d/1qm0Xs9MJqoTNHVzZOPyBfaUXfyf7vopL/view?usp=drive_link)
+
 
 ### Funcionalidades
 >El sitio web cuenta con: 
@@ -16,6 +19,7 @@
 ### Instalacion
 
 ### Recursos que se utilizaron
+> Se utilizo para los iconos [Ionicons](https://ionic.io/ionicons)
 
 ### Proceso
 >Las tecnologias que se usaron fueron:
