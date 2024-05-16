@@ -1,0 +1,13 @@
+
+
+input.invalid {
+    background-color: #FFC0CB;
+}
+
+input.insecure {
+    background-color: #FFD700; 
+}
+
+input.secure {
+    background-color: #90EE90; 
+}
