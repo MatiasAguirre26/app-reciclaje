@@ -5,8 +5,8 @@
 ### Tabla de contenidos
 
 ### Ejemplos del proyecto
-![Imagen de la Home](https://drive.google.com/file/d/1qm0Xs9MJqoTNHVzZOPyBfaUXfyf7vopL/view?usp=drive_link)
-![Imagen de la pagina aboutUs](https://drive.google.com/file/d/1qm0Xs9MJqoTNHVzZOPyBfaUXfyf7vopL/view?usp=drive_link)
+![Imagen de la Home](https://drive.google.com/file/d/1qm0Xs9MJqoTNHVzZOPyBfaUXfyf7vopL/view?usp=sharing)
+![Imagen de la pagina aboutUs](https://drive.google.com/file/d/1I0HmbkpARv5hgD20xLdA5t9pfWiuMgAp/view?usp=sharing)
 
 
 ### Funcionalidades
