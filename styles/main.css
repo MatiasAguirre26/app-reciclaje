@@ -11,29 +11,7 @@
     box-sizing: border-box;
 } 
 
-#aboutUs_bg {
-    background-image: url(../assets/hero.jpeg);
-    background-size: cover;
-    /* position: relative; */
-    background-color: green;
-    background-blend-mode: color-burn;
-    backdrop-filter: blur(5px);
-}
 
-#about_us {
-    display: flex;
-    align-items: center;
-    margin: 10em 0 10em 0;
-    & article a button {
-        color: var(--color-white);
-        padding: 1em 2em;
-        background: var(--color-primary);
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        font-size: 1rem;
-    }
-}
 
 body {
     background-color: var(--background-color);
@@ -41,8 +19,6 @@ body {
 }
 
 main {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 60px;
     max-width: 1200px;
     margin: 0 auto;
@@ -50,11 +26,9 @@ main {
 }
 
 section {
-    /* background-color: var(--color-secundary); */
     border-radius: 30px;
     padding: 2em 2em;
     gap: 40px;
-    /* text-align: center; */
     margin-bottom: 18%;
 }
 
@@ -77,11 +51,9 @@ article p {
 
 /*NAVBAR*/
 .header{
-    /* background-color: #1b3039; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* height: 85px; */
     padding: 1em 1.3em;
 }
 
@@ -204,16 +176,8 @@ article p {
 }
 
 #hero img {
-    /* width: 100%; */
     border-radius: 10%;
 }
-
-/* article { */
-    /* height: 100%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
 
 #hero a {
     margin-top: 2em;
@@ -241,8 +205,8 @@ article p {
     animation-timeline: view();
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
-    border-block-start: 10px solid green;
-    /* gap: 40px; */
+    border-block-start: 10px solid var(--color-primary); 
+    box-shadow: 4px 5px 20px 2px #000000;
     & img {
         width: 15em;
         border-radius: 50%;
@@ -264,6 +228,7 @@ article p {
     animation-timeline: view();
     animation-range: entry 27% cover 30%;
     animation-fill-mode: both;
+    box-shadow: 4px 5px 20px 2px #000000;
 }
 
 #recycling-points {
@@ -273,7 +238,6 @@ article p {
     animation-timeline: view();
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
-    /* gap: 20px; */
     & img {
         width: 18em;        
     }
@@ -370,6 +334,31 @@ article p {
     margin-bottom: 10px;
     font-size: 0.8rem;
   }
+
+
+/*ABOUT US*/
+#aboutUs_bg {
+    background-image: url(../assets/hero.jpeg);
+    background-size: cover;
+    background-color: green;
+    background-blend-mode: color-burn;
+    backdrop-filter: blur(5px);
+}
+
+#about_us {
+    display: flex;
+    align-items: center;
+    margin: 10em 0 10em 0;
+    & article a button {
+        color: var(--color-white);
+        padding: 1em 2em;
+        background: var(--color-primary);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+}
 
 
 /*MEDIA QUERY*/
