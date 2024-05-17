@@ -14,7 +14,8 @@
 * Menú responsive
 
 
-### Instalacion
+### Deploy
+> El proyecto se puede ver en: [website](https://reciclaje-website.netlify.app/)
 
 ### Recursos que se utilizaron
 > Se utilizo para los iconos [Ionicons](https://ionic.io/ionicons)
