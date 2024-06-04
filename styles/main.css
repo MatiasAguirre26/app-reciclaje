@@ -345,7 +345,7 @@ article p {
 
 /*ABOUT US*/
 #aboutUs_bg {
-    background-image: url(../assets/hero.jpeg);
+    background-image: url(../assets/hero.webp);
     background-size: cover;
     background-color: green;
     background-blend-mode: color-burn;
